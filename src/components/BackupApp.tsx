@@ -13,7 +13,7 @@ import {
   RotateCcw,
   CheckCircle,
   AlertCircle,
-  DragHandleDots2,
+  GripVertical,
   Plus,
   Trash2
 } from "lucide-react";
@@ -173,7 +173,7 @@ const BackupApp = ({ onBack }: BackupAppProps) => {
                       className="flex items-center justify-between p-3 bg-green-50 border border-green-200 rounded-lg"
                     >
                       <div className="flex items-center space-x-2">
-                        <DragHandleDots2 className="h-4 w-4 text-gray-400" />
+                        <GripVertical className="h-4 w-4 text-gray-400" />
                         <span className="font-medium text-green-800">{folder}</span>
                       </div>
                       <Button
